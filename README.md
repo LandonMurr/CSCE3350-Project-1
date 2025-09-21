@@ -41,7 +41,7 @@ source .venv/bin/activate # macOS / Linux
 ## Running the Server
 
 Start the FastAPI server:
-`uvicorn main:app --reload --port 8080`
+`python3 -m uvicorn app.main:app --reload --port 8080`
 
 - Server will generate one active key and one expired key on startup.
 
@@ -78,7 +78,7 @@ Start the FastAPI server:
     - JWKS endpoint shows active public keys.
     - Auth endpoint issues JWTs with selected key.
 
-# Notes
+## Notes
 
 - Keys are stored in memory only; restarting the server resets them.
 - Expired keys are included for testing JWT verification failures.
@@ -111,7 +111,7 @@ This project utilized AI assistance via Grok 4 Expert. Unfortunately, Grok has a
 
     After saving the Canvas project instructions to Grok's memory, I sent the following prompt:
     
-    *"Based on instructions provided, what are some libraries I may find helpful to complete this school project in Python? Without showing me your solution, work through the project on your own, inform me of a general project structure, and procure a list of links to relevant sections of documentation within the libraries you use. My goal is to learn the process myself and write the code on my own."*
+    Based on instructions provided, what are some libraries I may find helpful to complete this school project in Python? Without showing me your solution, work through the project on your own, inform me of a general project structure, and procure a list of links to relevant sections of documentation within the libraries you use. My goal is to learn the process myself and write the code on my own.
 
     This gave me the list of resources provided above, a basic description of project structure, and a brief description of expected functionality for each file (including the test suite).
 

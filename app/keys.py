@@ -8,7 +8,7 @@ import time  # For expiry timestamps
 keys_store = []  # List to hold all key info
 
 
-def generate_key_pair():
+def generate_key_pair(lifetime_seconds=DEFAULT_KEY_LIFETIME_SECONDS):
     """
     Generates RSA key pair with unique key ID; sets expiry timestamp
 
@@ -31,7 +31,7 @@ def generate_key_pair():
     key_info = {
         "kid": str(uuid.uuid4()),  # unique key ID
         "expiry": int(time.time())
-        + DEFAULT_KEY_LIFETIME_SECONDS,  # Current time + lifetime
+        + lifetime_seconds,  # Current time + lifetime
         "private": private_key,
         "public": public_key,
     }
