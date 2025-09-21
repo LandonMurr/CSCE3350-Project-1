@@ -109,26 +109,26 @@ Start the FastAPI server:
 **AI Assistance**
 This project utilized AI assistance via Grok 4 Expert. Unfortunately, Grok has a distinct ability over other popular LLMs to maintain consideration of detailed list of requirements via its project instructions feature, which made it one of the better tools for this assignment. My goal was to complete this project in Python - a language am largely unfamiliar in - and this helped to supplement a lack of experience. AI assistance was used exclusively for the following categories:
 
-    1. Research & Initial Project Structure
+1. Research & Initial Project Structure
 
-    After saving the Canvas project instructions to Grok's memory, I sent the following prompt:
-    
-    Based on instructions provided, what are some libraries I may find helpful to complete this school project in Python? Without showing me your solution, work through the project on your own, inform me of a general project structure, and procure a list of links to relevant sections of documentation within the libraries you use. My goal is to learn the process myself and write the code on my own.
+After saving the Canvas project instructions to Grok's memory, I sent the following prompt:
 
-    This gave me the list of resources provided above, a basic description of project structure, and a brief description of expected functionality for each file (including the test suite).
+Based on instructions provided, what are some libraries I may find helpful to complete this school project in Python? Without showing me your solution, work through the project on your own, inform me of a general project structure, and procure a list of links to relevant sections of documentation within the libraries you use. My goal is to learn the process myself and write the code on my own.
 
-    2. Debugging
+This gave me the list of resources provided above, a basic description of project structure, and a brief description of expected functionality for each file (including the test suite).
 
-    After running the test suite and struggling with failed tests, I uploaded my project files to the conversation, pasted the terminal output containing test status, and asked the following prompt:
+2. Debugging
 
-    *"Help me interpret these error messages. I'm not looking for code; just provide a simple explanation of what the terminal is already saying."*
+After running the test suite and struggling with failed tests, I uploaded my project files to the conversation, pasted the terminal output containing test status, and asked the following prompt:
 
-    To ensure the integrity of this practice, this prompt was used for each additional error message until no further assistance was needed.
+*"Help me interpret these error messages. I'm not looking for code; just provide a simple explanation of what the terminal is already saying."*
 
-    3. Linting & Syntactical Improvements
+To ensure the integrity of this practice, this prompt was used for each additional error message until no further assistance was needed.
 
-    After implementing all primary functionality, I allowed Grok to review all of my code in search of any redunancies, syntactical inefficiencies, or locations where minor changes could significantly help adherence to best practices. The prompt for this is pasted below:
+3. Linting & Syntactical Improvements
 
-    *"I would like you to review all of my code and locate any minor issues that do not concern broader functionality. This will consist primarily syntactical issues like minor functional redunancies/inefficiencies, or single lines that may be edited to better fit Python best practices."*
+After implementing all primary functionality, I allowed Grok to review all of my code in search of any redunancies, syntactical inefficiencies, or locations where minor changes could significantly help adherence to best practices. The prompt for this is pasted below:
 
-    In this turn, Grok made a few edits all of the categories listed. It also recommended Black for final polishes on formatting, attaching both instructions on usage as well as providing a link to its online documentation.
+*"I would like you to review all of my code and locate any minor issues that do not concern broader functionality. This will consist primarily syntactical issues like minor functional redunancies/inefficiencies, or single lines that may be edited to better fit Python best practices."*
+
+In this turn, Grok made a few edits all of the categories listed. It also recommended Black for final polishes on formatting, attaching both instructions on usage as well as providing a link to its online documentation.
