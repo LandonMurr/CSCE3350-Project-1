@@ -102,6 +102,7 @@ Start the FastAPI server:
     - [Official unittest documentation](https://docs.python.org/3/library/unittest.html)
     - [Pytest documentation - assert](https://docs.pytest.org/en/stable/assert.html)
     - [Pytest documentation - monkeypatch](https://docs.pytest.org/en/stable/how-to/monkeypatch.html)
+    - [Black - Basic Usage](https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html)
 
 **AI Assistance**
 This project utilized AI assistance via Grok 4 Expert. Unfortunately, Grok has a distinct ability over other popular LLMs to maintain consideration of detailed list of requirements via its project instructions feature, which made it one of the better tools for this assignment. My goal was to complete this project in Python - a language am largely unfamiliar in - and this helped to supplement a lack of experience. AI assistance was used exclusively for the following categories:
@@ -121,3 +122,11 @@ This project utilized AI assistance via Grok 4 Expert. Unfortunately, Grok has a
     *"Help me interpret these error messages. I'm not looking for code; just provide a simple explanation of what the terminal is already saying."*
 
     To ensure the integrity of this practice, this prompt was used for each additional error message until no further assistance was needed.
+
+    3. Linting & Syntactical Improvements
+
+    After implementing all primary functionality, I allowed Grok to review all of my code in search of any redunancies, syntactical inefficiencies, or locations where minor changes could significantly help adherence to best practices. The prompt for this is pasted below:
+
+    *"I would like you to review all of my code and locate any minor issues that do not concern broader functionality. This will consist primarily syntactical issues like minor functional redunancies/inefficiencies, or single lines that may be edited to better fit Python best practices."*
+
+    In this turn, Grok made a few edits all of the categories listed. It also recommended Black for final polishes on formatting, attaching both instructions on usage as well as providing a link to its online documentation.
