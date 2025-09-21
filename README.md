@@ -9,6 +9,7 @@ This project implements a simple FastAPI server that:
 
 ## Project Structure
 
+```
 Project-1/
 ├─ app/
 │  ├─ __init__.py       # Empty
@@ -22,6 +23,7 @@ Project-1/
 │  └─ test_main.py      # Tests main.py
 ├─ README.md            # Overview / Project Documentation
 └─ requirements.txt     # List of required dependencies
+```
 
 ## Setup
 
@@ -87,22 +89,22 @@ Start the FastAPI server:
 ## References
 
 **Official Documentation**
-    - [Cryptography - RSA Key Generation](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#cryptography.hazmat.primitives.asymmetric.rsa.generate_private_key)
-    - [Cryptography — Public Key Objects](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#key-objects)
-    - [Cryptography — Key Serialization](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/serialization/#serialization-of-keys)
-    - [Python uuid module](https://docs.python.org/3/library/uuid.html#uuid.uuid4)
-    - [Python time module](https://docs.python.org/3/library/time.html#time.time)
-    - [Python base64 module](https://docs.python.org/3/library/base64.html#base64.urlsafe_b64encode)
-    - [Python int.to_bytes](https://docs.python.org/3/library/stdtypes.html#int.to_bytes)
-    - [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/)
-    - [FastAPI Path & Query Parameters](https://fastapi.tiangolo.com/tutorial/query-params/)
-    - [FastAPI Responses](https://fastapi.tiangolo.com/advanced/response-directly/)
-    - [Python contextlib.asynccontextmanager](https://docs.python.org/3/library/contextlib.html#contextlib.asynccontextmanager)
-    - [PyJWT — Encoding Tokens](https://pyjwt.readthedocs.io/en/stable/usage.html#encoding-decoding-tokens)
-    - [Official unittest documentation](https://docs.python.org/3/library/unittest.html)
-    - [Pytest documentation - assert](https://docs.pytest.org/en/stable/assert.html)
-    - [Pytest documentation - monkeypatch](https://docs.pytest.org/en/stable/how-to/monkeypatch.html)
-    - [Black - Basic Usage](https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html)
+- [Cryptography - RSA Key Generation](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#cryptography.hazmat.primitives.asymmetric.rsa.generate_private_key)
+- [Cryptography — Public Key Objects](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/#key-objects)
+- [Cryptography — Key Serialization](https://cryptography.io/en/latest/hazmat/primitives/asymmetric/serialization/#serialization-of-keys)
+- [Python uuid module](https://docs.python.org/3/library/uuid.html#uuid.uuid4)
+- [Python time module](https://docs.python.org/3/library/time.html#time.time)
+- [Python base64 module](https://docs.python.org/3/library/base64.html#base64.urlsafe_b64encode)
+- [Python int.to_bytes](https://docs.python.org/3/library/stdtypes.html#int.to_bytes)
+- [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/)
+- [FastAPI Path & Query Parameters](https://fastapi.tiangolo.com/tutorial/query-params/)
+- [FastAPI Responses](https://fastapi.tiangolo.com/advanced/response-directly/)
+- [Python contextlib.asynccontextmanager](https://docs.python.org/3/library/contextlib.html#contextlib.asynccontextmanager)
+- [PyJWT — Encoding Tokens](https://pyjwt.readthedocs.io/en/stable/usage.html#encoding-decoding-tokens)
+- [Official unittest documentation](https://docs.python.org/3/library/unittest.html)
+- [Pytest documentation - assert](https://docs.pytest.org/en/stable/assert.html)
+- [Pytest documentation - monkeypatch](https://docs.pytest.org/en/stable/how-to/monkeypatch.html)
+- [Black - Basic Usage](https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html)
 
 **AI Assistance**
 This project utilized AI assistance via Grok 4 Expert. Unfortunately, Grok has a distinct ability over other popular LLMs to maintain consideration of detailed list of requirements via its project instructions feature, which made it one of the better tools for this assignment. My goal was to complete this project in Python - a language am largely unfamiliar in - and this helped to supplement a lack of experience. AI assistance was used exclusively for the following categories:
